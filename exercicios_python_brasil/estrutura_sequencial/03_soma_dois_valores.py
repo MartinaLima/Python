@@ -1,0 +1,6 @@
+print('POR FAVOR, INFORME DOIS VALORES!')
+n1 = int(input('VALOR 1: '))
+n2 = int(input('VALOR 2: '))
+print('_'*40)
+print('\033[1:33m{:^40}'.format('RESULTADO'))
+print(f'\033[m>>> A soma de {n1} e {n2} é igual a \033[1m{n1+n2}.')
