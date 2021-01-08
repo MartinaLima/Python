@@ -1,0 +1,5 @@
+tam = float(input('TAMANHO DO ARQUIVO (MB): '))
+vel = float(input('VELOCIDADE DO LINK (Mbps): '))
+tempo = (tam/vel)
+minutos = (tempo/60)
+print(f'TEMPO DE DOWNLOAD EM MINUTOS: {minutos:.2f}')
