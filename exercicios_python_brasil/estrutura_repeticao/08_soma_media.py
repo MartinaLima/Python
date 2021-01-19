@@ -4,7 +4,7 @@ c = 0
 for c in range(5):
     c += 1
     num = int(input(f'- {c}º VALOR: '))
-    soma = soma + num
+    soma += num
 media = soma/c
 print(f'A SOMA DOS VALORES É: {soma}')
 print(f'A MÉDIA DOS VALORES É: {media:.2f}')
