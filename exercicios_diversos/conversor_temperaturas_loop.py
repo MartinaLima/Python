@@ -1,6 +1,6 @@
 print('\033[1m>>> CONVERSOR DE TEMPERATURAS <<< \033[m')
-opcao = ''
-while opcao != 'N':
+escolha = ''
+while escolha != 'N':
     temp = float(input('Informe a temperatura: '))
     opcao = int(input('Escolha o tipo de conversão:\n'
                       '[1] Célsius para Fahrenheit\n'
@@ -42,8 +42,8 @@ while opcao != 'N':
               f'{temp}{tipo1} é igual a {resultado:.2f}{tipo2}.')
     else:
         print('OPÇÃO INVÁLIDA!')
-    opcao = str(input('Quer continuar? [S/N] ').upper())
-    while opcao not in 'SN':
-        opcao = str(input('Quer continuar? [S/N] ').upper())
-    if opcao == 'N':
+    escolha = str(input('Quer continuar? [S/N] ').upper())
+    while escolha not in 'SN':
+        escolha = str(input('Quer continuar? [S/N] ').upper())
+    if escolha == 'N':
         print('Fim do programa!')
