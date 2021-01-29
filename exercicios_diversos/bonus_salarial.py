@@ -1,3 +1,8 @@
+"""Crie um programa que leia o nome completo e o salário bruto de um funcionário. Informe como resultado o nome 
+completo, o salário bruto, o valor do acréscimo bônus no salário, o valor total de desconto do INSS e do IR, 
+o valor total de descontos e o salário líquido (a receber). Considere 20% de acréscimo, 10% desconto do INSS e 30% 
+desconto do IR. """
+
 print('-'*9 + ' FOLHA DE PAGAMENTO ' + '-'*9)
 nome = str(input('NOME FUNCIONÁRIO(A): '))
 bruto = float(input('SALÁRIO BRUTO: R$ '))
