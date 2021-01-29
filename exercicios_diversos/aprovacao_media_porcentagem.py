@@ -1,3 +1,8 @@
+""" Faça um programa que leia as três notas de vários alunos, calcule a média e informe se está APROVADO (acima de 
+7 pontos), REPROVADO (abaixo de 6 pontos) ou em RECUPERAÇÃO (entre 6 e 7 pontos). Ao final, exiba na tela a 
+quantidade de alunos aprovados, reprovados e em recuperação, a média total de todos os alunos e a média de todos os 
+alunos APROVADOS. Ainda calcule a porcentagem de alunos em cada uma das categorias. """
+
 print('\033[1m>>> PESQUISA DE APROVAÇÃO DE ALUNOS <<<\033[m')
 ap = 0
 rep = 0
