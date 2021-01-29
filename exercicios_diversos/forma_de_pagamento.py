@@ -1,10 +1,3 @@
-""" Crie um programa que leia o valor de uma compra e informe o valor final que deverá ser pago, de acordo com a 
-opção de pagamento desejada. Opções: 
-À VISTA (DINHEIRO OU CHEQUE) 10% DESCONTO 
-À VISTA (CARTÃO DE CRÉDITO)	15% DESCONTO 
-PARCELADO EM 2X	VALOR NORMAL 
-PARCELADO EM 3X	JUROS DE 10% """
-
 print('*'*15 + ' PAGAMENTO ' + '*'*15)
 valor = float(input('VALOR DA COMPRA: R$ '))
 pagamento = 0
