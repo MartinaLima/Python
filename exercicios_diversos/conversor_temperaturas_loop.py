@@ -1,3 +1,7 @@
+"""Faça um programa que leia uma temperatura e qual tipo de conversão o usuário deseja fazer (informando qual a
+temperatura inicial e para qual deseja converter – Célsius, Fahrenheit e Kelvin). Acrescente a opção de continuar as
+conversões quantas vezes desejar. """
+
 print('\033[1m>>> CONVERSOR DE TEMPERATURAS <<< \033[m')
 escolha = ''
 while escolha != 'N':
