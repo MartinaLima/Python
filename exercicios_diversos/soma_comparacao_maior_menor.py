@@ -1,6 +1,3 @@
-""" Crie um programa que leia 3 números e mostre se a soma dos dois primeiros números é maior, menor ou igual ao 
-terceiro número. """
-
 print('>>> Informe três valores:')
 n1 = int(input('- 1º VALOR: '))
 n2 = int(input('- 2º VALOR: '))
