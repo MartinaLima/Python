@@ -16,9 +16,13 @@ for tot_alunos in range(10):
         if altura > maior:
             maior = altura
             alto = codigo
+        elif altura == maior:
+            alto = 'mais de um aluno com a maior altura.'
         if altura < menor:
             menor = altura
             baixo = codigo
+        elif altura == menor:
+            baixo = 'mais de um aluno com a menor altura.'
 print('\033[1mRESULTADOS... \033[m')
 print('-'*30)
 print('\033[1mMAIS ALTO\033[m')
