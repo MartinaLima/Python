@@ -1,5 +1,4 @@
 print('\033[1m>>> COMPARADOR DE ALTURAS <<<\033[m')
-tot_alunos = 0
 for tot_alunos in range(10):
     tot_alunos += 1
     codigo = int(input(f'Código aluno(a) {tot_alunos}: '))
