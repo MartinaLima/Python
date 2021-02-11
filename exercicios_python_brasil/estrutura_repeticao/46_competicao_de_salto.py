@@ -16,8 +16,7 @@ while True:
     outras_dist = [] + tot_dist
     outras_dist.remove(max(outras_dist))
     outras_dist.remove(min(outras_dist))
-    for a in range(len(outras_dist)):
-        soma_dist += outras_dist[a]
+    soma_dist = sum(outras_dist)
     media = soma_dist / 3
     print('\033[1mRESULTADO >>> \033[m')
     print(f'* Atleta: {nome}')
