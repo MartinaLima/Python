@@ -45,9 +45,9 @@ while True:
         elif acertos == menos_acertos:
             aluno_menos = 'há mais de um aluno com menos acertos'
     todos_acertos += acertos
-    novo_aluno = str(input('Cadastrar novo aluno [S/N]? ').upper())
+    novo_aluno = str(input('Continuar novo aluno [S/N]? ').upper())
     while novo_aluno not in ['S', 'N']:
-        novo_aluno = str(input('Cadastrar novo aluno [S/N]? ').upper())
+        novo_aluno = str(input('Continuar novo aluno [S/N]? ').upper())
     if novo_aluno == 'N':
         break
 media = todos_acertos / alunos
